@@ -73,7 +73,7 @@ let drawPoints = () => {
       if (item["URL"] === "") {
         return "lightgreen";
       } else {
-        return "orange";
+        return "red";
       }
     })
     .on("mouseover", (item) => {
